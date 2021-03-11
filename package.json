@@ -1,0 +1,21 @@
+{
+  "name": "keytar-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "keytar": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "keytar": "^7.2.0",
+    "minimist": "^1.2.5",
+    "password-prompt": "^1.1.2",
+    "yesno": "^0.3.1"
+  }
+}
